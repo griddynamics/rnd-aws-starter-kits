@@ -1,0 +1,3 @@
+bucket: "lookoutvision-us-east-1-017e8d732b" # "your-unique-s3-bucket"
+project: "anomaly_detection_demo" # "your-project-name"
+region: "us-east-1" # aws location of project
