@@ -13,20 +13,10 @@ Amazon Web Services (AWS) provides a Lookout for Vision service for detecting an
 - (Optional) Adjust hyperparameters in notebook `aws_video_quality_control_starting_kit` under `Object detection functions`, `Lookout for vision related functions` and `Multi-object tracking` sections
 - Run notebook e2e
 
-## License
+## Useful Link 
 
-```
-Copyright 2022 Grid Dynamics International, Inc. All Rights Reserved
+Costs of AWS services used in this notebook
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+- Data storage - https://aws.amazon.com/s3/pricing/
+- Model training - https://aws.amazon.com/lookout-for-vision/pricing/ (Training Hours)
+- Deployed model inference - https://aws.amazon.com/lookout-for-vision/pricing/ (Cloud Inference Hours)
