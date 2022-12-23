@@ -7,8 +7,8 @@ Amazon Web Services (AWS) provides a Lookout for Vision service for detecting an
 ## How to Use the starting kit
 
 - Create named profiles under the  `~/.aws/credentials (Linux & Mac) or %USERPROFILE%\.aws\credentials (Windows)`
-- Provide name of the lookout project, bucket and location in config.yml
-- If s3 bucket is not created run cell `Create bucket`
+- Provide name of the lookout project, bucket and location and stored them in config.yml
+- If s3 bucket is not created, run cell `Create bucket`
 - Store video file that should be processed under the `./data/raw/` folder
 - (Optional) Adjust hyperparameters in notebook `aws_video_quality_control_starting_kit` under `Object detection functions`, `Lookout for vision related functions` and `Multi-object tracking` sections
 - Run notebook e2e
@@ -18,5 +18,5 @@ Amazon Web Services (AWS) provides a Lookout for Vision service for detecting an
 Costs of AWS services used in this notebook
 
 - Data storage - https://aws.amazon.com/s3/pricing/
-- Model training - https://aws.amazon.com/lookout-for-vision/pricing/ (Training Hours)
-- Deployed model inference - https://aws.amazon.com/lookout-for-vision/pricing/ (Cloud Inference Hours)
+- Model training - https://aws.amazon.com/lookout-for-vision/pricing/ (Training/Hours)
+- Deployed model inference - https://aws.amazon.com/lookout-for-vision/pricing/ (Cloud Inference/Hours)
